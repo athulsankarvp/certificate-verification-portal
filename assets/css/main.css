@@ -1,0 +1,196 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap'); */
+
+body {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  background-color: #000000;
+  /* height: auto; */
+}
+
+/* vanta globe */
+#vanta-canvas {
+  width: 100%;
+  height: 100vh;
+}
+body{
+  height: auto;
+}
+/* ............................................top-navbar........................................ */
+/* logo */
+.img-responsive {
+  margin-top: 20px;
+  opacity: 0.89;
+}
+
+/* ............................................homepage........................................ */
+.content_main {
+  margin: 150px 0 0 130px;
+}
+
+/* ............................................Verify Certificate........................................ */
+.cert_position {
+  margin: 55px 0 0 90px;
+  color: white;
+}
+
+.cert_position h1 {
+  font-weight: 600;
+  font-size: 76px;
+}
+
+.cert_span {
+  color: #FF0000;
+}
+
+.cert_position p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.form {
+  margin: 20px 0 0 0;
+}
+
+.certnum{
+  color: #ffffff;
+  height: 35px;
+  background: linear-gradient(
+      180deg,
+      rgba(235, 235, 224, 0.1) 0%,
+      rgba(245, 245, 240, 0) 100%
+    ),
+    rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: #ffffff solid 1px;
+  width: 120%;
+}
+
+.btn-verify {
+  text-align: center;
+  background-color: #FF0000;
+  border-color: #FF0000;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 10%;
+  height: 50px;
+  font-size: 25px;
+  opacity: 0.8;
+}
+
+.btn-verify:hover{
+  background-color: #FF2E2E;
+}
+/* Modal */
+
+.modal-content {
+  width: 100%;
+  height: 400px;
+}
+
+/* ================================================= media queries ====================================== */
+/* ............................................homepage........................................ */
+@media screen and (max-width: 768px) {
+  .img-responsive {
+    width: 125px;
+  }
+  .menu_text {
+    font-size: 5vw;
+  }
+  .content_main {
+    margin: 123px 0 0 79px;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .row-responsive {
+    margin-bottom: 470px;
+  }
+  .content_main {
+    margin: 100px 0 0 10px;
+  }
+  .menu_text {
+    /* font-size: 24px; */
+    line-height: 65px;
+    font-size: 7vw;
+  }
+
+  .vector label {
+    margin: 21px 0px 0 10px;
+  }
+
+  .vector label span {
+    height: 4px;
+    margin: 2px 0;
+  }
+
+  span:nth-of-type(1) {
+    width: 40%;
+  }
+
+  span:nth-of-type(2) {
+    width: 70%;
+  }
+
+  span:nth-of-type(3) {
+    width: 55%;
+  }
+
+}
+
+/* ............................................cert something page........................................ */
+
+@media screen and (max-width: 768px) {
+  .cert_position {
+    margin: 40px 0 0 50px;
+  }
+  .cert_position h1 {
+    font-size: 8vw;
+  }
+  .cert_position p {
+    font-size: 2vw;
+    line-height: 24px;
+  }
+  .cert_form .form-group {
+    width: 280px;
+  }
+  .btn-verify {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .cert_position {
+    padding: 100px 0 0 0;
+    margin: 0;
+  }
+  .cert_position h1 {
+    font-size: 12vw;
+  }
+  .cert_position p {
+    font-size: 3vw;
+  }
+  .cert_form .form-group {
+    width: 270px;
+  }
+  .btn-verify {
+    width: 120px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cert_position p {
+    font-size: 4vw;
+  }
+  .cert_form .form-group {
+    width: 240px;
+  }
+  .form-check label {
+    display: inline;
+  }
+}
+
+
